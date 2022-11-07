@@ -3,6 +3,11 @@
   src: url('Arvo/Arvo-Regular.ttf');
 }
 
+@font-face {
+  font-family: ArvoBold;
+  src: url('Arvo/Arvo-Bold.ttf');
+}
+
 body {
   font-family: 'Arvo', sans-serif;
   /* background-image: linear-gradient(to bottom,  rgb(248, 248, 248),white); */
@@ -245,6 +250,7 @@ a:active {
 
 .linkstyling {
   color: rgba(45, 68, 125, 0.7);
+  font-family: ArvoBold;
 }
 
 .textheader {
