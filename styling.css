@@ -1,20 +1,30 @@
+@font-face {
+  font-family: Arvo;
+  src: url('Arvo/Arvo-Regular.ttf');
+}
+
 body {
-  font-family: 'Arapey', serif;
+  font-family: 'Arvo', sans-serif;
   /* background-image: linear-gradient(to bottom,  rgb(248, 248, 248),white); */
 }
 
 /*------HOME PAGE----------*/
 
 p {
-  font-family: 'Arapey', serif;
+  font-family: 'Arvo', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Arapey', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arvo', sans-serif;
 }
 
 a {
-  font-family: 'Arapey', serif;
+  font-family: 'Arvo', sans-serif;
 }
 
 * {
@@ -41,7 +51,6 @@ a {
 .nav-links,
 .logo {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
   font-size: 45px;
   letter-spacing: 2px;
 }
@@ -52,7 +61,7 @@ a {
   margin-left: 150px;
   letter-spacing: 2px;
 }
-
+/* 
 .logo {
   display: inline-block;
   font-size: 22px;
@@ -60,15 +69,14 @@ a {
   margin-left: 20px;
   font-size: 45px;
   margin-top: 0;
-
-}
+} */
 
 .navbar-toggle {
   position: absolute;
   top: 50px;
   right: 10px;
   cursor: pointer;
-  color: #3ad4c7;
+  color: rgba(75, 108, 193, 0.7);
   font-size: 24px;
 }
 
@@ -78,56 +86,56 @@ a {
 
 @media screen and (min-width: 850px) {
   .navbar {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 0;
-      height: 70px;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
   }
 
   .main-nav {
-      display: flex;
-      margin-right: 30px;
-      flex-direction: row;
-      justify-content: flex-end;
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .main-nav li {
-      margin: 0;
-      letter-spacing: 1px;
+    margin: 0;
+    letter-spacing: 1px;
   }
 
   .nav-links {
-      margin-left: 40px;
+    margin-left: 40px;
   }
 
   .logo {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   .navbar-toggle {
-      display: none;
+    display: none;
   }
 
   .logo:hover,
   .nav-links:hover {
-      color: black;
+    color: rgba(75, 108, 193, 0.7);
   }
 }
 
 a:link {
-  color: #3ad4c7;
+  color: rgba(34, 53, 121, 0.7);
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #3ad4c7;
+  color: rgba(34, 53, 121, 0.7);
 }
 
 /* mouse over link */
 a:hover {
-  color:black;
+  color: rgba(86, 123, 217, 0.7);
 }
 
 /* selected link */
@@ -141,15 +149,15 @@ a:active {
 }
 
 .navbar a.active {
-  color:black;
+  color: black;
 }
-
 
 .intro {
   padding: 40px;
   margin: 40px;
   margin-top: -90px;
   font-size: 25px;
+  text-align: center;
 }
 
 .welcome {
@@ -157,6 +165,7 @@ a:active {
   margin: 40px;
   margin-top: -20px;
   font-size: 35px;
+  text-align: center;
 }
 
 .homepageline {
@@ -176,7 +185,7 @@ a:active {
 .projectbutton {
   font-size: 17px;
   text-align: left;
-  color: #3ad4c7;
+  color: rgba(45, 68, 125, 0.7);
   background-color: white;
   border-style: solid;
   padding: 8px;
@@ -185,12 +194,12 @@ a:active {
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 8px;
-  border-color: #3ad4c7;
+  border-color: rgba(45, 68, 125, 0.7);
   margin-right: 8px;
 }
 
-.projectbutton:hover{
-  opacity: .6;
+.projectbutton:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -235,7 +244,7 @@ a:active {
 }
 
 .linkstyling {
-  color: #3ad4c7;
+  color: rgba(45, 68, 125, 0.7);
 }
 
 .textheader {
@@ -250,7 +259,6 @@ a:active {
 .phonetic {
   font-size: 25px;
 }
-
 
 /*------FOOTER----------*/
 footer {
@@ -269,5 +277,5 @@ a.footerlinks {
 }
 
 a.footerlinks:hover {
-  color: #3ad4c7;
+  color: rgba(45, 68, 125, 0.7);
 }
