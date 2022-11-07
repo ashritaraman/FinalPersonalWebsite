@@ -169,7 +169,7 @@ a:active {
   padding: 40px;
   margin: 40px;
   margin-top: -20px;
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -179,7 +179,7 @@ a:active {
 }
 
 .projecttitle {
-  font-size: 30px;
+  font-size: 33px;
   margin-top: 8px;
 }
 
@@ -210,6 +210,13 @@ a:active {
 
 .projectblurb {
   font-size: 20px;
+  display: inline;
+}
+
+.projectblurbtopic {
+  font-family: ArvoBold;
+  font-size: 20px;
+  display: inline;
 }
 
 .dates {
